@@ -35,7 +35,8 @@ h4 {
 
 .article,
 ul,
-table {
+table,
+footer {
   margin: 20px 0;
 }
 
@@ -59,13 +60,26 @@ th {
   background-color: #a5c6eb;
 }
 
+footer {
+  height: 300px;
+}
+
 figure {
   width: 25%;
   height: 50%;
   color: white;
 }
 
+figure > h4 {
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 25px 0;
+}
+
 .img1 {
   background-image: url("../assets/img/monitor.jpg");
-  background-size: cover;
+}
+.img2 {
+  background-image: url("../assets/img/graph.jpg");
 }
