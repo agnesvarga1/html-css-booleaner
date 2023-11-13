@@ -11,8 +11,9 @@ html {
 header {
   background-color: #4ea0ff;
   background-image: url("../assets/img/pattern.png");
-  background-size: 60% 170%;
-  padding-top: 30px;
+  background-size: 43%;
+  background-position: top;
+  padding-top: 70px;
 }
 .logo {
   width: 200px;
