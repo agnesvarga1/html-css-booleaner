@@ -5,6 +5,26 @@
   box-sizing: border-box;
 }
 
-html {
-  background-color: coral;
+header {
+  background-color: #4ea0ff;
+  background-image: url("../assets/img/pattern.png");
+  background-size: 60% 170%;
+  padding-top: 30px;
+}
+.logo {
+  width: 200px;
+}
+h1 {
+  font-size: 50px;
+}
+.author {
+  color: gray;
+}
+.author a {
+  text-decoration: none;
+  color: #4ea0ff;
+}
+
+.photo-source {
+  font-size: 12px;
 }
