@@ -8,7 +8,9 @@
   </head>
   <body>
     <header>
-      <img class="logo" src="./assets/img/logo.svg" alt="logo" />
+      <figure>
+        <img class="logo" src="./assets/img/logo.svg" alt="logo" />
+      </figure>
     </header>
     <main>
       <section>
@@ -18,18 +20,16 @@
         </h1>
         <div class="author">
           <p>Scritto da <a href="">The Booleaner</a></p>
-          <p class="date">il 20/12/2021</p>
+          <p class="date" style="font-size: 10">il 20/12/2021</p>
         </div>
-        <figure>
+        <figure class="tim">
           <img src="./assets/img/tim-1.jpg" alt="Tim Berners-Lee" />
           <img src="./assets/img/tim-2.jpg" alt="Tim Berners-Lee" />
-
-          <p class="photo-source">
-            1st Photo: John S. and James L. Knight Foundation, by Scott
-            Henrichsen
-          </p>
-          <p class="photo-source">2nd Photo: Wikimedia, by Paul Clarke</p>
         </figure>
+        <p class="photo-source">
+          1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
+        </p>
+        <p class="photo-source">2nd Photo: Wikimedia, by Paul Clarke</p>
       </section>
       <div class="article">
         <p>
@@ -101,8 +101,12 @@
     </main>
     <footer>
       <h4>Potrebbero Iteressarti</h4>
-      <figure class="img1"><h4>Lorem ipsum</h4></figure>
-      <figure class="img2"><h4>Lorem ipsum</h4></figure>
+      <figure class="footimg img1">
+        <h4 class="img-title">Lorem ipsum</h4>
+      </figure>
+      <figure class="footimg img2">
+        <h4 class="img-title">Lorem ipsum</h4>
+      </figure>
     </footer>
   </body>
 </html>

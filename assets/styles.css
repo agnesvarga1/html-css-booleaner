@@ -8,6 +8,11 @@ html {
   font-size: 18px;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
 header {
   background-color: #4ea0ff;
   background-image: url("../assets/img/pattern.png");
@@ -15,19 +20,35 @@ header {
   background-position: top;
   padding-top: 70px;
 }
+
+header figure,
+footer {
+  padding-inline: 10%;
+}
 .logo {
   width: 200px;
 }
 h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 .author,
 h4 {
   color: gray;
 }
+.author {
+  font-size: 14px;
+}
 .author a {
   text-decoration: none;
   color: #4ea0ff;
+}
+
+.tim {
+  width: 100%;
+}
+
+.tim img {
+  width: 49%;
 }
 
 .photo-source {
@@ -62,22 +83,25 @@ th {
 }
 
 footer {
-  height: 300px;
-}
-
-figure {
-  width: 25%;
-  height: 50%;
-  color: white;
-}
-
-figure > h4 {
-  color: white;
-  background-size: contain;
-  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
   margin: 25px 0;
 }
 
+footer figure {
+  width: 20%;
+  height: 40%;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px;
+}
+.img-title {
+  color: white;
+}
 .img1 {
   background-image: url("../assets/img/monitor.jpg");
 }
